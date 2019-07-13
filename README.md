@@ -1,10 +1,14 @@
 # TTNweatherNode
 Simple low power Arduino Pro Mini weather node based on the BME280 sensor using a RFM95W Lora Module
 
+The node and this code was used for demonstration purpose by 
+TheThingsNetwork Community Bruchsal in the course of an entry level
+workshop.
+
 ## Libraries
 ### CayenneLPP by Electronic Cats 1.0.1
 ### SparkFun BME280 by SparkFun Electronics 2.0.4
-### Low Power Library
+### Low Power Library by Rocketscream
 https://github.com/rocketscream/Low-Power
 
 ### MCCI LoRaWAN LMIC library by IBM, Matthis Kooijman ... 2.3.2
