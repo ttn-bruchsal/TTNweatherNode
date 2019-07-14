@@ -108,6 +108,10 @@ static const u1_t PROGMEM APPSKEY[16] = FILLMEIN ;
 // See http://thethingsnetwork.org/wiki/AddressSpace
 // The library converts the address to network byte order as needed.
 static const u4_t DEVADDR = FILLMEIN ; // <-- Change this address for every node!
+// DEVADDR needs a "0x" prefix when copying the address from the TTN console.
+// So, if "2601ABCD" is the Device Address in the TTN Console, the entry
+// should look like this:
+// static const u4_t DEVADDR = 0x2601ABCD;
 
 // These callbacks are only used in over-the-air activation, so they are
 // left empty here (we cannot leave them out completely unless
